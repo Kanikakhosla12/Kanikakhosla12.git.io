@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebdc;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    padding: 40px;
+    background-color: #f5ebdc;
+}
+
+.left-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-section {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-image {
+    width: 90%;
+    max-width: 180px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.large-image {
+    width: 90%; /* Reduced size slightly */
+    max-width: 450px; /* Set a specific max-width to control size */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adjusted for slight alignment tweak */
+}
+
+.text-content {
+    text-align: left;
+    margin-top: 40px; /* Adjusted text positioning to match request */
+    width: 90%;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.degree {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.quote {
+    font-size: 14px;
+    line-height: 1.6;
+    border-left: 3px solid #000;
+    padding-left: 10px;
+    margin-top: 15px;
+}
